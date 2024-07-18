@@ -1,0 +1,38 @@
+body {
+            background-color: #f8f9fa;
+            
+        }
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+        h1 {
+            color: #343a40;
+        }
+        #taskInput {
+            border-radius: 0;
+            margin-right: 5px;
+        }
+        #addButton {
+            
+            border-radius: 5px;
+        }
+        .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+        }
+        .list-group-item.completed {
+            text-decoration: line-through;
+            color: #6c757d;
+        }
+        .delete-button {
+            background-color: transparent;
+            border: none;
+            color: #dc3545;
+        }

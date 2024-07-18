@@ -1,0 +1,21 @@
+.maindiv{
+    background-color: black;
+    height: 100vh;
+    width: 0;
+    transition: ease-in-out 1s;
+
+}
+button{
+    margin: 10px !important;
+}
+ul{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    display: none;
+}
